@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#root{
+    font-family: 'Outfit', sans-serif !important;
+}
+
+html { 
+    background-color: #FF9416;
+    background-size: cover;
+}
+
+/* Card */
+.card{
+    border-radius: 20px;
+    margin-bottom: 0.5vh;
+}
+
+.card-body{
+    padding: 0rem 1rem !important;
+}
+
+/* -- NAVBAR -- */
+.navbar .container-fluid{
+    display: block  !important;
+}
+
+.navbar a{
+    cursor: pointer;
+}
+
+.navbar-brand{
+    font-size: x-large;
+}
+
+/* - - HOME - - */
+.info{
+    margin-top: 7.5vh;
+}
+
+.graphics{
+    margin-top: 7vh;
+}
+
+.graphics .card{
+    margin-bottom: 1vh;
+}
+
+/* - - ADICIONAR - - */
+.adicionar .card{
+        height: auto;
+}
+
+.adicionar .btn-info{
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 25%;
+}
+
+.selectbox{
+    background-color: #C4C4C4;
+    width: 100%;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.form-control{
+    background-color: #C4C4C4;
+    width: 100%;
+    border-radius: 20px;
+    padding: 0.5rem;
+    margin: 0 0 0 0;
+}
+
