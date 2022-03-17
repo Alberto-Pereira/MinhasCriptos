@@ -47,10 +47,10 @@ html {
 
 /* - - ADICIONAR - - */
 .adicionar .card{
-        height: auto;
+    height: auto;
 }
 
-.adicionar .btn-info{
+.btn-info{
     border-radius: 20px;
     padding: 0.5rem;
     width: 25%;
@@ -71,3 +71,27 @@ html {
     margin: 0 0 0 0;
 }
 
+/* - - HISTÓRICO - - */
+.historico .card-body{
+    height: 80vh;
+}
+
+.historico .card{
+    margin-top: 6vh;
+}
+
+/* - - LOGIN - - */
+.login .btn-cadastrar{
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 25%;
+    background-color: #C4C4C4;
+}
+
+/* - - CADASTRAR - - */
+.cadastrar .btn-cadastrar{
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 25%;
+    background-color: #C4C4C4;
+}

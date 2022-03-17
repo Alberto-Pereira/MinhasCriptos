@@ -14,8 +14,14 @@ export default function Navbar(){
                     <div className="col-4 d-flex justify-content-center">
                         <a className="nav-link text-white" 
                            onClick={() => {navigate('/adicionar');}}>ADICIONAR</a>
-                        <a className="nav-link text-white">HISTÓRICO</a>
-                        <a className="nav-link text-white">SUPORTE</a>
+                        <a className="nav-link text-white"
+                           onClick={() => {navigate('/historico')}}>HISTÓRICO</a>
+                        <a className="nav-link text-white"
+                           onClick={() => {navigate('/suporte')}}>SUPORTE</a>
+                    </div>
+                    <div className="col-4 d-flex justify-content-end">
+                        <a className="nav-link text-white" 
+                            onClick={() => {navigate('/cadastrar-usuario');}}>DESLOGAR</a>
                     </div>
                 </div>
             </div>
